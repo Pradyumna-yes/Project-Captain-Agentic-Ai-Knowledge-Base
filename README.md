@@ -96,7 +96,7 @@ ProjectCaptain uses a **retrieval-based AI architecture**.
 
 The system connects to multiple enterprise systems and retrieves relevant information before generating responses.
 
-<img width="800" height="800" alt="ChatGPT Image Mar 5, 2026, 01_00_08 PM" src="https://github.com/user-attachments/assets/d5d717c4-fecb-46cf-86eb-eefabb318f13" />
+<img width="400" height="600" alt="ChatGPT Image Mar 5, 2026, 01_00_08 PM" src="https://github.com/user-attachments/assets/d5d717c4-fecb-46cf-86eb-eefabb318f13" />
 
 This approach ensures responses are **grounded in real project data instead of assumptions.**
 
