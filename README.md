@@ -313,4 +313,4 @@ ProjectCaptain mitigates these challenges by relying on **retrieval-based respon
 
 # 🏁 Hackathon Project
 
-ProjectCaptain was developed as part of the **Reinvention with AI Hackathon** to demonstrate how AI copilots can transform **project onboarding, knowledge retrieval, and sprint planning** within enterprise environments.
+ProjectCaptain was developed during the Reinvention with AI Hackathon, where our solution won recognition for demonstrating how AI copilots can transform project onboarding, knowledge retrieval, and sprint planning in enterprise environments.
