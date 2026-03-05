@@ -97,25 +97,7 @@ ProjectCaptain uses a **retrieval-based AI architecture**.
 The system connects to multiple enterprise systems and retrieves relevant information before generating responses.
 
 ```
-
-User Question
-│
-▼
-ProjectCaptain AI Copilot
-│
-▼
-Context Retrieval Layer
-│
-▼
-Enterprise Knowledge Sources
-├── Jira API
-├── Confluence API
-├── SharePoint
-├── GitHub
-└── Project Documentation
-│
-▼
-AI Reasoning + Response Generation
+<img width="1024" height="1536" alt="ChatGPT Image Mar 5, 2026, 01_00_08 PM" src="https://github.com/user-attachments/assets/d5d717c4-fecb-46cf-86eb-eefabb318f13" />
 
 ````
 
@@ -125,7 +107,7 @@ This approach ensures responses are **grounded in real project data instead of a
 
 # 🏗 Architecture
 
-> <img width="1335" height="1910" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/248e834a-dc7c-4c33-9423-537126a86051" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/dea70904-9259-4fc5-8290-6d8dd36f172a" />
 
 
 ProjectCaptain consists of three main components:
@@ -184,11 +166,30 @@ Example:
 
 ```json
 {
-  "issue_key": "SCRUM-21",
-  "summary": "Document RCA",
-  "assignee": "Rituparna Dhar",
-  "status": "To Do",
-  "priority": "Medium"
+     "name": "Function_Name",
+     "description": "Description of the function. Include features and what it does.",
+     "api": {
+          "url": "api_url",
+          "method": "invoke method (e.g. GET or POST)",
+          "auth": "apikey",
+          "headers": {
+               "api_key_name": "api_key_value"
+          }
+     },
+     "parameters": {
+          "type": "object",
+          "properties": {
+               "first_parameter_name": {
+                    "type": "type of param (e.g. string, number, or boolean)",
+                    "description": "Description of the parameter. Include sample values."
+               }
+          },
+          "required": [
+               "array_of_required_properties (e.g.['first_parameter_name'])"
+          ]
+     },
+     "earlyExit": false,
+     "streamingEnabled": false
 }
 ````
 
@@ -228,9 +229,9 @@ docs/
     solution_approach.md
 
 prompts/
-    projectcaptain_prompt.md
-    sprint_planning_prompt.md
-
+    system_prompt.md
+  
+Presentation/
 README.md
 ```
 
