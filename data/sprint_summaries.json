@@ -1,0 +1,6 @@
+[
+  {"sprint": 1, "goal": "Establish core ERD fields and base tables.", "completed": ["Legal Entity", "Policy Table", "Customer ID"], "key_changes": "Initial schema design and data dictionary."},
+  {"sprint": 2, "goal": "Introduce additional policy attributes and sales integration.", "completed": ["Coverage Type", "Effective Date", "Agent ID"], "key_changes": "Added product and operations fields."},
+  {"sprint": 3, "goal": "Support claim tracking and demo preparation.", "completed": ["Expiration Date", "Claim Amount", "Sprint 2 demo"], "key_changes": "Started claims table; prepared demo slides."},
+  {"sprint": 4, "goal": "Enhance auto policies and perform retrospective.", "completed": ["Vehicle VIN", "Premium validation"], "key_changes": "Added auto field; planned retro."}
+]

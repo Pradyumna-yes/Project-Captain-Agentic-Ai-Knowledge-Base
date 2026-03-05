@@ -1,0 +1,14 @@
+[
+  {"story_id": "ST-1", "sprint": 1, "title": "Define Legal Entity field", "description": "Create ERD entry for Legal Entity", "team": "Data Architecture", "status": "To Do"},
+  {"story_id": "ST-2", "sprint": 1, "title": "Design Policy table", "description": "ERD design for Policy", "team": "Underwriting", "status": "In Progress"},
+  {"story_id": "ST-3", "sprint": 1, "title": "Create Customer ID field", "description": "Add customer identifier to ERD", "team": "CRM", "status": "Done"},
+  {"story_id": "ST-4", "sprint": 2, "title": "Add Coverage Type field", "description": "Introduce coverage type to policy table", "team": "Product", "status": "To Do"},
+  {"story_id": "ST-5", "sprint": 2, "title": "Implement Effective Date", "description": "Add effective date to policy", "team": "Operations", "status": "In Progress"},
+  {"story_id": "ST-6", "sprint": 2, "title": "Agent ID for Sales", "description": "Link agents to policies", "team": "Sales", "status": "To Do"},
+  {"story_id": "ST-7", "sprint": 3, "title": "Expiration Date field", "description": "Add expiration date support", "team": "Operations", "status": "To Do"},
+  {"story_id": "ST-8", "sprint": 3, "title": "Claim Amount field", "description": "Add claim amount to claim table", "team": "Claims", "status": "In Progress"},
+  {"story_id": "ST-9", "sprint": 3, "title": "Sprint 2 demo prep", "description": "Prepare demo materials and slides", "team": "QA", "status": "Done"},
+  {"story_id": "ST-10", "sprint": 4, "title": "Vehicle VIN field", "description": "Add VIN field for auto policies", "team": "Auto", "status": "To Do"},
+  {"story_id": "ST-11", "sprint": 4, "title": "Premium Amount validation", "description": "Ensure premium amounts are positive", "team": "Billing", "status": "In Progress"},
+  {"story_id": "ST-12", "sprint": 4, "title": "Sprint 3 retrospective", "description": "Compile feedback from sprint 3", "team": "Scrum Master", "status": "To Do"}
+]

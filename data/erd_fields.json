@@ -1,0 +1,82 @@
+[
+  {
+    "field_name": "Legal Entity",
+    "definition": "Identifier for business legal entity.",
+    "table": "Organization",
+    "mandatory": true,
+    "introduced_in_sprint": 1,
+    "owner_team": "Data Architecture"
+  },
+  {
+    "field_name": "Policy Number",
+    "definition": "Unique number assigned to an insurance policy.",
+    "table": "Policy",
+    "mandatory": true,
+    "introduced_in_sprint": 1,
+    "owner_team": "Underwriting"
+  },
+  {
+    "field_name": "Customer ID",
+    "definition": "Primary key for customer records.",
+    "table": "Customer",
+    "mandatory": true,
+    "introduced_in_sprint": 1,
+    "owner_team": "CRM"
+  },
+  {
+    "field_name": "Coverage Type",
+    "definition": "Type of coverage provided under the policy.",
+    "table": "Policy",
+    "mandatory": false,
+    "introduced_in_sprint": 2,
+    "owner_team": "Product"
+  },
+  {
+    "field_name": "Effective Date",
+    "definition": "Date when the policy coverage begins.",
+    "table": "Policy",
+    "mandatory": true,
+    "introduced_in_sprint": 2,
+    "owner_team": "Operations"
+  },
+  {
+    "field_name": "Expiration Date",
+    "definition": "Date when the policy coverage ends.",
+    "table": "Policy",
+    "mandatory": false,
+    "introduced_in_sprint": 3,
+    "owner_team": "Operations"
+  },
+  {
+    "field_name": "Claim Amount",
+    "definition": "Total monetary value of the claim.",
+    "table": "Claim",
+    "mandatory": false,
+    "introduced_in_sprint": 3,
+    "owner_team": "Claims"
+  },
+  {
+    "field_name": "Agent ID",
+    "definition": "Identifier of the insurance agent handling the policy.",
+    "table": "Agent",
+    "mandatory": false,
+    "introduced_in_sprint": 2,
+    "owner_team": "Sales"
+  },
+  {
+    "field_name": "Vehicle VIN",
+    "definition": "Vehicle Identification Number for auto policies.",
+    "table": "Vehicle",
+    "mandatory": false,
+    "introduced_in_sprint": 4,
+    "owner_team": "Auto"
+  },
+  {
+    "field_name": "Premium Amount",
+    "definition": "Amount due for policy premium.",
+    "table": "Policy",
+    "mandatory": true,
+    "introduced_in_sprint": 1,
+    "owner_team": "Billing"
+  }
+]

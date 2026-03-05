@@ -1,0 +1,20 @@
+ProjectMind AI is an AI-powered knowledge copilot for large enterprise projects. It centralizes definitions of data fields, sprint activity, team ownership, and documentation into a single queryable interface.
+
+Objective: Eliminate dependency on subject matter experts by making structured project knowledge directly accessible via natural language.
+
+Teams involved:
+- Data Architecture
+- Underwriting
+- CRM
+- Product
+- Operations
+- Sales
+- Claims
+- QA
+- Auto
+- Billing
+- Scrum Master
+
+Architecture: A small retrieval layer atop structured JSON mock data. Demonstrations use either an MCP-based AI agent or a standalone RAG pipeline.
+
+Industry context: Insurance transformation project migrating legacy systems to a modern data platform.
