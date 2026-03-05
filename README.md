@@ -125,7 +125,8 @@ This approach ensures responses are **grounded in real project data instead of a
 
 # 🏗 Architecture
 
-> 📌 Insert the system architecture diagram from the presentation here.
+> <img width="1335" height="1910" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/248e834a-dc7c-4c33-9423-537126a86051" />
+
 
 ProjectCaptain consists of three main components:
 
